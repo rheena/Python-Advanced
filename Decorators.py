@@ -1,8 +1,8 @@
 '''
 Decorators add a certain functionality to a function
 '''
+
 #Specific decorator
-'''
 def mydecorator(function):
     def wrapper():
         function()
@@ -15,7 +15,7 @@ def hello_world():
     print('Hello world!')
 
 (hello_world)()
-'''
+
 
 #Universal decorator
 def mydecorator(function):
