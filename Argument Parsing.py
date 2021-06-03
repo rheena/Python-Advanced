@@ -3,7 +3,7 @@ It is mostly important for systems programming or getting into networking script
 that are going to be executed on a command line.
 
 myscript.py - 
-'''
+
 
 def myfunction(*args, **kwargs):
     print(args[0])
@@ -15,7 +15,7 @@ def myfunction(*args, **kwargs):
     
 
 myfunction('Hey', True, 25, '3rd year', KEYONE='TEST', KEYTWO=24)
-
+'''
 
 import sys
 
